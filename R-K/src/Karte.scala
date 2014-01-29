@@ -1,6 +1,7 @@
 import scala.io._
 
 class Karte (filename: String) {
+  val a = 0
     var staedte: List[Stadt] = List.empty
     var strassen: List[Strasse] = List.empty
 
@@ -12,7 +13,8 @@ class Karte (filename: String) {
         val stadt = new Stadt(s)
         staedte = stadt :: staedte
         return stadt
-        /// irgendquach da rein
+        
+        
        
     }
 
