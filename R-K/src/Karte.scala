@@ -12,8 +12,8 @@ class Karte (filename: String) {
         val stadt = new Stadt(s)
         staedte = stadt :: staedte
         return stadt
-        
-        //  Damali probe
+        /// irgendquach da rein
+       
     }
 
     for (line <- Source.fromFile(filename).getLines) {
